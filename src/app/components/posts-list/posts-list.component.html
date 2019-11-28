@@ -1,0 +1,2 @@
+<app-posts-list-header></app-posts-list-header>
+<app-posts-list-item *ngFor="let post of (postList$ | async); trackBy: trackByFn;" [post]="post"></app-posts-list-item>
